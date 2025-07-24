@@ -1,0 +1,1669 @@
+<html>
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=windows-1252">
+<meta name=Generator content="Microsoft Word 15 (filtered)">
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:8.0pt;
+	margin-left:0cm;
+	line-height:107%;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+.MsoChpDefault
+	{font-family:"Calibri",sans-serif;}
+.MsoPapDefault
+	{margin-bottom:8.0pt;
+	line-height:107%;}
+@page WordSection1
+	{size:595.3pt 841.9pt;
+	margin:70.85pt 3.0cm 70.85pt 3.0cm;}
+div.WordSection1
+	{page:WordSection1;}
+-->
+</style>
+
+</head>
+
+<body lang=PT-BR style='word-wrap:break-word'>
+
+<div class=WordSection1>
+
+<p class=MsoNormal>&lt;!DOCTYPE html&gt;</p>
+
+<p class=MsoNormal>&lt;html lang=&quot;pt-BR&quot;&gt;</p>
+
+<p class=MsoNormal>&lt;head&gt;</p>
+
+<p class=MsoNormal>    &lt;meta charset=&quot;UTF-8&quot;&gt;</p>
+
+<p class=MsoNormal>    &lt;meta name=&quot;viewport&quot;
+content=&quot;width=device-width, initial-scale=1.0&quot;&gt;</p>
+
+<p class=MsoNormal>    &lt;title&gt;BELA DONA - Produtos de Luxo com Preços
+Acessíveis&lt;/title&gt;</p>
+
+<p class=MsoNormal>    &lt;script
+src=&quot;https://cdn.tailwindcss.com&quot;&gt;&lt;/script&gt;</p>
+
+<p class=MsoNormal>    &lt;link rel=&quot;stylesheet&quot;
+href=&quot;https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css&quot;&gt;</p>
+
+<p class=MsoNormal>    &lt;style&gt;</p>
+
+<p class=MsoNormal>        @import
+url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&amp;family=Poppins:wght@300;400;500;600&amp;display=swap');</p>
+
+<p class=MsoNormal>        </p>
+
+<p class=MsoNormal>        body {</p>
+
+<p class=MsoNormal>            font-family: 'Poppins', sans-serif;</p>
+
+<p class=MsoNormal>        }</p>
+
+<p class=MsoNormal>        </p>
+
+<p class=MsoNormal>        .header-font {</p>
+
+<p class=MsoNormal>            font-family: 'Playfair Display', serif;</p>
+
+<p class=MsoNormal>        }</p>
+
+<p class=MsoNormal>        </p>
+
+<p class=MsoNormal>        .product-card:hover {</p>
+
+<p class=MsoNormal>            transform: translateY(-10px);</p>
+
+<p class=MsoNormal>            box-shadow: 0 25px 50px -12px rgba(0, 0, 0,
+0.25);</p>
+
+<p class=MsoNormal>        }</p>
+
+<p class=MsoNormal>        </p>
+
+<p class=MsoNormal>        .hero-gradient {</p>
+
+<p class=MsoNormal>            background: linear-gradient(135deg, #0d1b6b 0%,
+#1e3a8a 100%);</p>
+
+<p class=MsoNormal>        }</p>
+
+<p class=MsoNormal>        </p>
+
+<p class=MsoNormal>        .btn-primary {</p>
+
+<p class=MsoNormal>            transition: all 0.3s ease;</p>
+
+<p class=MsoNormal>        }</p>
+
+<p class=MsoNormal>        </p>
+
+<p class=MsoNormal>        .btn-primary:hover {</p>
+
+<p class=MsoNormal>            transform: scale(1.05);</p>
+
+<p class=MsoNormal>            box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1);</p>
+
+<p class=MsoNormal>        }</p>
+
+<p class=MsoNormal>        </p>
+
+<p class=MsoNormal>        .gold-text {</p>
+
+<p class=MsoNormal>            color: #D4AF37;</p>
+
+<p class=MsoNormal>        }</p>
+
+<p class=MsoNormal>        </p>
+
+<p class=MsoNormal>        .gold-bg {</p>
+
+<p class=MsoNormal>            background-color: #D4AF37;</p>
+
+<p class=MsoNormal>        }</p>
+
+<p class=MsoNormal>        </p>
+
+<p class=MsoNormal>        .gold-hover:hover {</p>
+
+<p class=MsoNormal>            background-color: #C0A02C;</p>
+
+<p class=MsoNormal>        }</p>
+
+<p class=MsoNormal>        </p>
+
+<p class=MsoNormal>        .royal-blue {</p>
+
+<p class=MsoNormal>            background-color: #0d1b6b;</p>
+
+<p class=MsoNormal>        }</p>
+
+<p class=MsoNormal>        </p>
+
+<p class=MsoNormal>        .royal-blue-light {</p>
+
+<p class=MsoNormal>            background-color: #1e3a8a;</p>
+
+<p class=MsoNormal>        }</p>
+
+<p class=MsoNormal>        </p>
+
+<p class=MsoNormal>        .modal {</p>
+
+<p class=MsoNormal>            display: none;</p>
+
+<p class=MsoNormal>            position: fixed;</p>
+
+<p class=MsoNormal>            z-index: 1000;</p>
+
+<p class=MsoNormal>            left: 0;</p>
+
+<p class=MsoNormal>            top: 0;</p>
+
+<p class=MsoNormal>            width: 100%;</p>
+
+<p class=MsoNormal>            height: 100%;</p>
+
+<p class=MsoNormal>            background-color: rgba(0,0,0,0.5);</p>
+
+<p class=MsoNormal>        }</p>
+
+<p class=MsoNormal>        </p>
+
+<p class=MsoNormal>        .modal-content {</p>
+
+<p class=MsoNormal>            background-color: #0d1b6b;</p>
+
+<p class=MsoNormal>            margin: 5% auto;</p>
+
+<p class=MsoNormal>            padding: 20px;</p>
+
+<p class=MsoNormal>            border: 2px solid #D4AF37;</p>
+
+<p class=MsoNormal>            border-radius: 10px;</p>
+
+<p class=MsoNormal>            width: 90%;</p>
+
+<p class=MsoNormal>            max-width: 600px;</p>
+
+<p class=MsoNormal>            position: relative;</p>
+
+<p class=MsoNormal>        }</p>
+
+<p class=MsoNormal>        </p>
+
+<p class=MsoNormal>        .close {</p>
+
+<p class=MsoNormal>            color: #D4AF37;</p>
+
+<p class=MsoNormal>            float: right;</p>
+
+<p class=MsoNormal>            font-size: 28px;</p>
+
+<p class=MsoNormal>            font-weight: bold;</p>
+
+<p class=MsoNormal>            cursor: pointer;</p>
+
+<p class=MsoNormal>        }</p>
+
+<p class=MsoNormal>        </p>
+
+<p class=MsoNormal>        .close:hover {</p>
+
+<p class=MsoNormal>            color: #C0A02C;</p>
+
+<p class=MsoNormal>        }</p>
+
+<p class=MsoNormal>        </p>
+
+<p class=MsoNormal>        .cart-item {</p>
+
+<p class=MsoNormal>            border-bottom: 1px solid #1e3a8a;</p>
+
+<p class=MsoNormal>            padding: 15px 0;</p>
+
+<p class=MsoNormal>        }</p>
+
+<p class=MsoNormal>        </p>
+
+<p class=MsoNormal>        /* Animation for &quot;Fale Conosco&quot; */</p>
+
+<p class=MsoNormal>        .send-animation {</p>
+
+<p class=MsoNormal>            animation: sendMessage 1s ease-in-out forwards;</p>
+
+<p class=MsoNormal>        }</p>
+
+<p class=MsoNormal>        </p>
+
+<p class=MsoNormal>        @keyframes sendMessage {</p>
+
+<p class=MsoNormal>            0% { transform: translateX(0); opacity: 1; }</p>
+
+<p class=MsoNormal>            50% { transform: translateX(20px); opacity: 0.7;
+}</p>
+
+<p class=MsoNormal>            100% { transform: translateX(0); opacity: 1; }</p>
+
+<p class=MsoNormal>        }</p>
+
+<p class=MsoNormal>        </p>
+
+<p class=MsoNormal>        .sending-animation {</p>
+
+<p class=MsoNormal>            position: relative;</p>
+
+<p class=MsoNormal>            overflow: hidden;</p>
+
+<p class=MsoNormal>        }</p>
+
+<p class=MsoNormal>        </p>
+
+<p class=MsoNormal>        .sending-animation::after {</p>
+
+<p class=MsoNormal>            content: '';</p>
+
+<p class=MsoNormal>            position: absolute;</p>
+
+<p class=MsoNormal>            top: 0;</p>
+
+<p class=MsoNormal>            left: -100%;</p>
+
+<p class=MsoNormal>            width: 100%;</p>
+
+<p class=MsoNormal>            height: 100%;</p>
+
+<p class=MsoNormal>            background: linear-gradient(90deg, transparent,
+rgba(255,255,255,0.2), transparent);</p>
+
+<p class=MsoNormal>            animation: sending 1.5s infinite;</p>
+
+<p class=MsoNormal>        }</p>
+
+<p class=MsoNormal>        </p>
+
+<p class=MsoNormal>        @keyframes sending {</p>
+
+<p class=MsoNormal>            0% { left: -100%; }</p>
+
+<p class=MsoNormal>            100% { left: 100%; }</p>
+
+<p class=MsoNormal>        }</p>
+
+<p class=MsoNormal>        </p>
+
+<p class=MsoNormal>        .success-message {</p>
+
+<p class=MsoNormal>            color: #10B981;</p>
+
+<p class=MsoNormal>            text-align: center;</p>
+
+<p class=MsoNormal>            padding: 10px;</p>
+
+<p class=MsoNormal>            display: none;</p>
+
+<p class=MsoNormal>        }</p>
+
+<p class=MsoNormal>        </p>
+
+<p class=MsoNormal>        .mission-card {</p>
+
+<p class=MsoNormal>            background: rgba(255, 255, 255, 0.1);</p>
+
+<p class=MsoNormal>            border-radius: 10px;</p>
+
+<p class=MsoNormal>            padding: 20px;</p>
+
+<p class=MsoNormal>            margin-bottom: 20px;</p>
+
+<p class=MsoNormal>            border-left: 4px solid #D4AF37;</p>
+
+<p class=MsoNormal>        }</p>
+
+<p class=MsoNormal>        </p>
+
+<p class=MsoNormal>        .value-item {</p>
+
+<p class=MsoNormal>            background: rgba(255, 255, 255, 0.05);</p>
+
+<p class=MsoNormal>            border-radius: 8px;</p>
+
+<p class=MsoNormal>            padding: 15px;</p>
+
+<p class=MsoNormal>            margin-bottom: 10px;</p>
+
+<p class=MsoNormal>            display: flex;</p>
+
+<p class=MsoNormal>            align-items: center;</p>
+
+<p class=MsoNormal>        }</p>
+
+<p class=MsoNormal>        </p>
+
+<p class=MsoNormal>        .value-icon {</p>
+
+<p class=MsoNormal>            background: #D4AF37;</p>
+
+<p class=MsoNormal>            color: #0d1b6b;</p>
+
+<p class=MsoNormal>            width: 30px;</p>
+
+<p class=MsoNormal>            height: 30px;</p>
+
+<p class=MsoNormal>            border-radius: 50%;</p>
+
+<p class=MsoNormal>            display: flex;</p>
+
+<p class=MsoNormal>            align-items: center;</p>
+
+<p class=MsoNormal>            justify-content: center;</p>
+
+<p class=MsoNormal>            margin-right: 15px;</p>
+
+<p class=MsoNormal>            font-weight: bold;</p>
+
+<p class=MsoNormal>        }</p>
+
+<p class=MsoNormal>    &lt;/style&gt;</p>
+
+<p class=MsoNormal>&lt;/head&gt;</p>
+
+<p class=MsoNormal>&lt;body class=&quot;royal-blue text-white&quot;&gt;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>    &lt;!-- Header --&gt;</p>
+
+<p class=MsoNormal>    &lt;header class=&quot;royal-blue-light p-4 md:p-6 flex
+flex-col md:flex-row justify-between items-center&quot;&gt;</p>
+
+<p class=MsoNormal>        &lt;h1 class=&quot;header-font text-3xl md:text-4xl
+font-bold mb-4 md:mb-0 gold-text&quot;&gt;BELA DONA&lt;/h1&gt;</p>
+
+<p class=MsoNormal>        &lt;div class=&quot;flex space-x-4&quot;&gt;</p>
+
+<p class=MsoNormal>            &lt;button class=&quot;gold-bg gold-hover px-4
+py-2 rounded flex items-center text-black font-semibold&quot;
+onclick=&quot;openModal('cart')&quot;&gt;</p>
+
+<p class=MsoNormal>                &lt;i class=&quot;fas fa-shopping-cart
+mr-2&quot;&gt;&lt;/i&gt;</p>
+
+<p class=MsoNormal>                Carrinho (&lt;span
+id=&quot;cart-count&quot;&gt;0&lt;/span&gt;)</p>
+
+<p class=MsoNormal>            &lt;/button&gt;</p>
+
+<p class=MsoNormal>            &lt;button class=&quot;gold-bg gold-hover px-4
+py-2 rounded flex items-center text-black font-semibold&quot;
+onclick=&quot;openModal('favorites')&quot;&gt;</p>
+
+<p class=MsoNormal>                &lt;i class=&quot;fas fa-heart
+mr-2&quot;&gt;&lt;/i&gt;</p>
+
+<p class=MsoNormal>                Favoritos (&lt;span
+id=&quot;favorites-count&quot;&gt;0&lt;/span&gt;)</p>
+
+<p class=MsoNormal>            &lt;/button&gt;</p>
+
+<p class=MsoNormal>        &lt;/div&gt;</p>
+
+<p class=MsoNormal>    &lt;/header&gt;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>    &lt;!-- Hero Section --&gt;</p>
+
+<p class=MsoNormal>    &lt;section class=&quot;py-16 md:py-24 text-center
+bg-cover bg-center&quot; style=&quot;background-image:
+url('https://placehold.co/1920x800/0d1b6b/D4AF37?text=Bela+Dona+Essencial');&quot;&gt;</p>
+
+<p class=MsoNormal>        &lt;div class=&quot;container mx-auto px-4&quot;&gt;</p>
+
+<p class=MsoNormal>            &lt;h2 class=&quot;header-font text-4xl
+md:text-6xl font-bold mb-6 gold-text&quot;&gt;Bela Dona Essencial&lt;/h2&gt;</p>
+
+<p class=MsoNormal>            &lt;p class=&quot;text-xl md:text-2xl mb-8
+max-w-3xl mx-auto&quot;&gt;</p>
+
+<p class=MsoNormal>                Produtos de luxo com preços acessíveis para
+homens e mulheres modernos</p>
+
+<p class=MsoNormal>            &lt;/p&gt;</p>
+
+<p class=MsoNormal>            &lt;button class=&quot;btn-primary gold-bg
+gold-hover px-8 py-4 rounded-lg text-lg font-semibold text-black&quot;
+onclick=&quot;scrollToProducts()&quot;&gt;</p>
+
+<p class=MsoNormal>                Conheça nossa coleção exclusiva</p>
+
+<p class=MsoNormal>            &lt;/button&gt;</p>
+
+<p class=MsoNormal>        &lt;/div&gt;</p>
+
+<p class=MsoNormal>    &lt;/section&gt;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>    &lt;!-- Categories Section --&gt;</p>
+
+<p class=MsoNormal>    &lt;section class=&quot;py-12 royal-blue-light&quot;&gt;</p>
+
+<p class=MsoNormal>        &lt;div class=&quot;container mx-auto px-4&quot;&gt;</p>
+
+<p class=MsoNormal>            &lt;h3 class=&quot;text-3xl font-bold
+text-center mb-12 gold-text&quot;&gt;Nossas Categorias&lt;/h3&gt;</p>
+
+<p class=MsoNormal>            &lt;div class=&quot;grid grid-cols-2
+md:grid-cols-5 gap-4&quot;&gt;</p>
+
+<p class=MsoNormal>                &lt;div class=&quot;gold-bg p-6 rounded-lg
+text-center cursor-pointer hover:bg-yellow-600 transition text-black
+font-semibold&quot; onclick=&quot;filterCategory('Perfumes
+Femininos')&quot;&gt;</p>
+
+<p class=MsoNormal>                    &lt;i class=&quot;fas fa-venus text-3xl
+mb-3&quot;&gt;&lt;/i&gt;</p>
+
+<p class=MsoNormal>                    &lt;p&gt;Perfumes Femininos&lt;/p&gt;</p>
+
+<p class=MsoNormal>                &lt;/div&gt;</p>
+
+<p class=MsoNormal>                &lt;div class=&quot;gold-bg p-6 rounded-lg
+text-center cursor-pointer hover:bg-yellow-600 transition text-black
+font-semibold&quot; onclick=&quot;filterCategory('Perfumes
+Masculinos')&quot;&gt;</p>
+
+<p class=MsoNormal>                    &lt;i class=&quot;fas fa-mars text-3xl
+mb-3&quot;&gt;&lt;/i&gt;</p>
+
+<p class=MsoNormal>                    &lt;p&gt;Perfumes Masculinos&lt;/p&gt;</p>
+
+<p class=MsoNormal>                &lt;/div&gt;</p>
+
+<p class=MsoNormal>                &lt;div class=&quot;gold-bg p-6 rounded-lg
+text-center cursor-pointer hover:bg-yellow-600 transition text-black
+font-semibold&quot; onclick=&quot;filterCategory('Maquiagem')&quot;&gt;</p>
+
+<p class=MsoNormal>                    &lt;i class=&quot;fas fa-paint-brush
+text-3xl mb-3&quot;&gt;&lt;/i&gt;</p>
+
+<p class=MsoNormal>                    &lt;p&gt;Maquiagem&lt;/p&gt;</p>
+
+<p class=MsoNormal>                &lt;/div&gt;</p>
+
+<p class=MsoNormal>                &lt;div class=&quot;gold-bg p-6 rounded-lg
+text-center cursor-pointer hover:bg-yellow-600 transition text-black
+font-semibold&quot; onclick=&quot;filterCategory('Skincare')&quot;&gt;</p>
+
+<p class=MsoNormal>                    &lt;i class=&quot;fas fa-leaf text-3xl
+mb-3&quot;&gt;&lt;/i&gt;</p>
+
+<p class=MsoNormal>                    &lt;p&gt;Skincare&lt;/p&gt;</p>
+
+<p class=MsoNormal>                &lt;/div&gt;</p>
+
+<p class=MsoNormal>                &lt;div class=&quot;gold-bg p-6 rounded-lg
+text-center cursor-pointer hover:bg-yellow-600 transition text-black
+font-semibold&quot; onclick=&quot;filterCategory('Cremes')&quot;&gt;</p>
+
+<p class=MsoNormal>                    &lt;i class=&quot;fas fa-spa text-3xl
+mb-3&quot;&gt;&lt;/i&gt;</p>
+
+<p class=MsoNormal>                    &lt;p&gt;Cremes&lt;/p&gt;</p>
+
+<p class=MsoNormal>                &lt;/div&gt;</p>
+
+<p class=MsoNormal>            &lt;/div&gt;</p>
+
+<p class=MsoNormal>        &lt;/div&gt;</p>
+
+<p class=MsoNormal>    &lt;/section&gt;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>    &lt;!-- Featured Products --&gt;</p>
+
+<p class=MsoNormal>    &lt;section class=&quot;py-16&quot;
+id=&quot;products-section&quot;&gt;</p>
+
+<p class=MsoNormal>        &lt;div class=&quot;container mx-auto px-4&quot;&gt;</p>
+
+<p class=MsoNormal>            &lt;h3 class=&quot;text-3xl font-bold
+text-center mb-12 gold-text&quot;&gt;Produtos em Destaque&lt;/h3&gt;</p>
+
+<p class=MsoNormal>            &lt;div class=&quot;grid grid-cols-1
+sm:grid-cols-2 lg:grid-cols-3 gap-8&quot;&gt;</p>
+
+<p class=MsoNormal>                &lt;!-- Product 1 --&gt;</p>
+
+<p class=MsoNormal>                &lt;div class=&quot;product-card
+royal-blue-light rounded-xl overflow-hidden shadow-lg transition duration-300
+ease-in-out cursor-pointer border-2 border-yellow-500&quot;&gt;</p>
+
+<p class=MsoNormal>                    &lt;img src=&quot;https://placehold.co/400x500/0d1b6b/D4AF37?text=Perfume+Feminino&quot;
+alt=&quot;Perfume Feminino&quot; class=&quot;w-full h-64 object-cover&quot;&gt;</p>
+
+<p class=MsoNormal>                    &lt;div class=&quot;p-6&quot;&gt;</p>
+
+<p class=MsoNormal>                        &lt;span class=&quot;gold-text
+text-sm&quot;&gt;Perfumes Femininos&lt;/span&gt;</p>
+
+<p class=MsoNormal>                        &lt;h4 class=&quot;text-xl font-bold
+mt-2 mb-3&quot;&gt;Essencial Feminino - 100ml&lt;/h4&gt;</p>
+
+<p class=MsoNormal>                        &lt;div class=&quot;flex
+justify-between items-center&quot;&gt;</p>
+
+<p class=MsoNormal>                            &lt;span class=&quot;text-2xl
+font-bold&quot;&gt;R$ 69,99&lt;/span&gt;</p>
+
+<p class=MsoNormal>                            &lt;button class=&quot;gold-bg
+gold-hover px-4 py-2 rounded text-black font-semibold&quot;
+onclick=&quot;addToCart('Essencial Feminino - 100ml', 69.99)&quot;&gt;</p>
+
+<p class=MsoNormal>                                Comprar</p>
+
+<p class=MsoNormal>                            &lt;/button&gt;</p>
+
+<p class=MsoNormal>                        &lt;/div&gt;</p>
+
+<p class=MsoNormal>                    &lt;/div&gt;</p>
+
+<p class=MsoNormal>                &lt;/div&gt;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>                &lt;!-- Product 2 --&gt;</p>
+
+<p class=MsoNormal>                &lt;div class=&quot;product-card
+royal-blue-light rounded-xl overflow-hidden shadow-lg transition duration-300
+ease-in-out cursor-pointer border-2 border-yellow-500&quot;&gt;</p>
+
+<p class=MsoNormal>                    &lt;img
+src=&quot;https://placehold.co/400x500/0d1b6b/D4AF37?text=Perfume+Masculino&quot;
+alt=&quot;Perfume Masculino&quot; class=&quot;w-full h-64
+object-cover&quot;&gt;</p>
+
+<p class=MsoNormal>                    &lt;div class=&quot;p-6&quot;&gt;</p>
+
+<p class=MsoNormal>                        &lt;span class=&quot;gold-text
+text-sm&quot;&gt;Perfumes Masculinos&lt;/span&gt;</p>
+
+<p class=MsoNormal>                        &lt;h4 class=&quot;text-xl font-bold
+mt-2 mb-3&quot;&gt;Essencial Masculino - 100ml&lt;/h4&gt;</p>
+
+<p class=MsoNormal>                        &lt;div class=&quot;flex
+justify-between items-center&quot;&gt;</p>
+
+<p class=MsoNormal>                            &lt;span class=&quot;text-2xl
+font-bold&quot;&gt;R$ 59,99&lt;/span&gt;</p>
+
+<p class=MsoNormal>                            &lt;button class=&quot;gold-bg
+gold-hover px-4 py-2 rounded text-black font-semibold&quot;
+onclick=&quot;addToCart('Essencial Masculino - 100ml', 59.99)&quot;&gt;</p>
+
+<p class=MsoNormal>                                Comprar</p>
+
+<p class=MsoNormal>                            &lt;/button&gt;</p>
+
+<p class=MsoNormal>                        &lt;/div&gt;</p>
+
+<p class=MsoNormal>                    &lt;/div&gt;</p>
+
+<p class=MsoNormal>                &lt;/div&gt;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>                &lt;!-- Product 3 --&gt;</p>
+
+<p class=MsoNormal>                &lt;div class=&quot;product-card
+royal-blue-light rounded-xl overflow-hidden shadow-lg transition duration-300
+ease-in-out cursor-pointer border-2 border-yellow-500&quot;&gt;</p>
+
+<p class=MsoNormal>                    &lt;img
+src=&quot;https://placehold.co/400x500/0d1b6b/D4AF37?text=Kit+Maquiagem&quot;
+alt=&quot;Maquiagem&quot; class=&quot;w-full h-64 object-cover&quot;&gt;</p>
+
+<p class=MsoNormal>                    &lt;div class=&quot;p-6&quot;&gt;</p>
+
+<p class=MsoNormal>                        &lt;span class=&quot;gold-text
+text-sm&quot;&gt;Maquiagem&lt;/span&gt;</p>
+
+<p class=MsoNormal>                        &lt;h4 class=&quot;text-xl font-bold
+mt-2 mb-3&quot;&gt;Kit Maquiagem Completo&lt;/h4&gt;</p>
+
+<p class=MsoNormal>                        &lt;div class=&quot;flex
+justify-between items-center&quot;&gt;</p>
+
+<p class=MsoNormal>                            &lt;span class=&quot;text-2xl
+font-bold&quot;&gt;R$ 89,99&lt;/span&gt;</p>
+
+<p class=MsoNormal>                            &lt;button class=&quot;gold-bg
+gold-hover px-4 py-2 rounded text-black font-semibold&quot;
+onclick=&quot;addToCart('Kit Maquiagem Completo', 89.99)&quot;&gt;</p>
+
+<p class=MsoNormal>                                Comprar</p>
+
+<p class=MsoNormal>                            &lt;/button&gt;</p>
+
+<p class=MsoNormal>                        &lt;/div&gt;</p>
+
+<p class=MsoNormal>                    &lt;/div&gt;</p>
+
+<p class=MsoNormal>                &lt;/div&gt;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>                &lt;!-- Product 4 --&gt;</p>
+
+<p class=MsoNormal>                &lt;div class=&quot;product-card
+royal-blue-light rounded-xl overflow-hidden shadow-lg transition duration-300
+ease-in-out cursor-pointer border-2 border-yellow-500&quot;&gt;</p>
+
+<p class=MsoNormal>                    &lt;img
+src=&quot;https://placehold.co/400x500/0d1b6b/D4AF37?text=Creme+Facial&quot;
+alt=&quot;Creme Facial&quot; class=&quot;w-full h-64 object-cover&quot;&gt;</p>
+
+<p class=MsoNormal>                    &lt;div class=&quot;p-6&quot;&gt;</p>
+
+<p class=MsoNormal>                        &lt;span class=&quot;gold-text
+text-sm&quot;&gt;Cremes e Skincare&lt;/span&gt;</p>
+
+<p class=MsoNormal>                        &lt;h4 class=&quot;text-xl font-bold
+mt-2 mb-3&quot;&gt;Creme Facial Hidratante&lt;/h4&gt;</p>
+
+<p class=MsoNormal>                        &lt;div class=&quot;flex justify-between
+items-center&quot;&gt;</p>
+
+<p class=MsoNormal>                            &lt;span class=&quot;text-2xl
+font-bold&quot;&gt;R$ 49,99&lt;/span&gt;</p>
+
+<p class=MsoNormal>                            &lt;button class=&quot;gold-bg
+gold-hover px-4 py-2 rounded text-black font-semibold&quot;
+onclick=&quot;addToCart('Creme Facial Hidratante', 49.99)&quot;&gt;</p>
+
+<p class=MsoNormal>                                Comprar</p>
+
+<p class=MsoNormal>                            &lt;/button&gt;</p>
+
+<p class=MsoNormal>                        &lt;/div&gt;</p>
+
+<p class=MsoNormal>                    &lt;/div&gt;</p>
+
+<p class=MsoNormal>                &lt;/div&gt;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>                &lt;!-- Product 5 --&gt;</p>
+
+<p class=MsoNormal>                &lt;div class=&quot;product-card royal-blue-light
+rounded-xl overflow-hidden shadow-lg transition duration-300 ease-in-out
+cursor-pointer border-2 border-yellow-500&quot;&gt;</p>
+
+<p class=MsoNormal>                    &lt;img
+src=&quot;https://placehold.co/400x500/0d1b6b/D4AF37?text=Sérum+Facial&quot;
+alt=&quot;Sérum Facial&quot; class=&quot;w-full h-64 object-cover&quot;&gt;</p>
+
+<p class=MsoNormal>                    &lt;div class=&quot;p-6&quot;&gt;</p>
+
+<p class=MsoNormal>                        &lt;span class=&quot;gold-text
+text-sm&quot;&gt;Skincare&lt;/span&gt;</p>
+
+<p class=MsoNormal>                        &lt;h4 class=&quot;text-xl font-bold
+mt-2 mb-3&quot;&gt;Sérum Facial Anti-Idade&lt;/h4&gt;</p>
+
+<p class=MsoNormal>                        &lt;div class=&quot;flex
+justify-between items-center&quot;&gt;</p>
+
+<p class=MsoNormal>                            &lt;span class=&quot;text-2xl
+font-bold&quot;&gt;R$ 79,99&lt;/span&gt;</p>
+
+<p class=MsoNormal>                            &lt;button class=&quot;gold-bg
+gold-hover px-4 py-2 rounded text-black font-semibold&quot;
+onclick=&quot;addToCart('Sérum Facial Anti-Idade', 79.99)&quot;&gt;</p>
+
+<p class=MsoNormal>                                Comprar</p>
+
+<p class=MsoNormal>                            &lt;/button&gt;</p>
+
+<p class=MsoNormal>                        &lt;/div&gt;</p>
+
+<p class=MsoNormal>                    &lt;/div&gt;</p>
+
+<p class=MsoNormal>                &lt;/div&gt;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>                &lt;!-- Product 6 --&gt;</p>
+
+<p class=MsoNormal>                &lt;div class=&quot;product-card royal-blue-light
+rounded-xl overflow-hidden shadow-lg transition duration-300 ease-in-out
+cursor-pointer border-2 border-yellow-500&quot;&gt;</p>
+
+<p class=MsoNormal>                    &lt;img
+src=&quot;https://placehold.co/400x500/0d1b6b/D4AF37?text=Kit+Beleza&quot;
+alt=&quot;Kit Completo&quot; class=&quot;w-full h-64 object-cover&quot;&gt;</p>
+
+<p class=MsoNormal>                    &lt;div class=&quot;p-6&quot;&gt;</p>
+
+<p class=MsoNormal>                        &lt;span class=&quot;gold-text
+text-sm&quot;&gt;Kits Especiais&lt;/span&gt;</p>
+
+<p class=MsoNormal>                        &lt;h4 class=&quot;text-xl font-bold
+mt-2 mb-3&quot;&gt;Kit Beleza Completo&lt;/h4&gt;</p>
+
+<p class=MsoNormal>                        &lt;div class=&quot;flex
+justify-between items-center&quot;&gt;</p>
+
+<p class=MsoNormal>                            &lt;span class=&quot;text-2xl
+font-bold&quot;&gt;R$ 199,99&lt;/span&gt;</p>
+
+<p class=MsoNormal>                            &lt;button class=&quot;gold-bg
+gold-hover px-4 py-2 rounded text-black font-semibold&quot;
+onclick=&quot;addToCart('Kit Beleza Completo', 199.99)&quot;&gt;</p>
+
+<p class=MsoNormal>                                Comprar</p>
+
+<p class=MsoNormal>                            &lt;/button&gt;</p>
+
+<p class=MsoNormal>                        &lt;/div&gt;</p>
+
+<p class=MsoNormal>                    &lt;/div&gt;</p>
+
+<p class=MsoNormal>                &lt;/div&gt;</p>
+
+<p class=MsoNormal>            &lt;/div&gt;</p>
+
+<p class=MsoNormal>        &lt;/div&gt;</p>
+
+<p class=MsoNormal>    &lt;/section&gt;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>    &lt;!-- CTA Section --&gt;</p>
+
+<p class=MsoNormal>    &lt;section class=&quot;py-16 hero-gradient&quot;&gt;</p>
+
+<p class=MsoNormal>        &lt;div class=&quot;container mx-auto px-4
+text-center&quot;&gt;</p>
+
+<p class=MsoNormal>            &lt;h3 class=&quot;header-font text-3xl
+md:text-4xl font-bold mb-6 gold-text&quot;&gt;Descubra a Essência da
+Beleza&lt;/h3&gt;</p>
+
+<p class=MsoNormal>            &lt;p class=&quot;text-xl mb-8 max-w-3xl
+mx-auto&quot;&gt;</p>
+
+<p class=MsoNormal>                Junte-se a milhares de homens e mulheres que
+já descobriram o luxo acessível com Bela Dona Essencial</p>
+
+<p class=MsoNormal>            &lt;/p&gt;</p>
+
+<p class=MsoNormal>            &lt;div class=&quot;flex flex-col sm:flex-row
+justify-center gap-4&quot;&gt;</p>
+
+<p class=MsoNormal>                &lt;button class=&quot;btn-primary gold-bg
+gold-hover px-8 py-4 rounded-lg text-lg font-semibold text-black&quot;
+onclick=&quot;scrollToProducts()&quot;&gt;</p>
+
+<p class=MsoNormal>                    &lt;i class=&quot;fas fa-shopping-bag
+mr-2&quot;&gt;&lt;/i&gt;</p>
+
+<p class=MsoNormal>                    Comprar Agora</p>
+
+<p class=MsoNormal>                &lt;/button&gt;</p>
+
+<p class=MsoNormal>                &lt;button class=&quot;btn-primary
+bg-transparent border-2 border-yellow-500 hover:bg-yellow-500 hover:text-black
+px-8 py-4 rounded-lg text-lg font-semibold&quot;
+onclick=&quot;openModal('contact')&quot;&gt;</p>
+
+<p class=MsoNormal>                    &lt;i class=&quot;fas fa-whatsapp
+mr-2&quot;&gt;&lt;/i&gt;</p>
+
+<p class=MsoNormal>                    Fale Conosco</p>
+
+<p class=MsoNormal>                &lt;/button&gt;</p>
+
+<p class=MsoNormal>            &lt;/div&gt;</p>
+
+<p class=MsoNormal>        &lt;/div&gt;</p>
+
+<p class=MsoNormal>    &lt;/section&gt;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>    &lt;!-- Footer --&gt;</p>
+
+<p class=MsoNormal>    &lt;footer class=&quot;bg-gray-900 py-12&quot;&gt;</p>
+
+<p class=MsoNormal>        &lt;div class=&quot;container mx-auto px-4&quot;&gt;</p>
+
+<p class=MsoNormal>            &lt;div class=&quot;grid grid-cols-1
+md:grid-cols-3 gap-8&quot;&gt;</p>
+
+<p class=MsoNormal>                &lt;div&gt;</p>
+
+<p class=MsoNormal>                    &lt;h4 class=&quot;header-font text-2xl
+font-bold mb-4 gold-text&quot;&gt;BELA DONA&lt;/h4&gt;</p>
+
+<p class=MsoNormal>                    &lt;p
+class=&quot;text-gray-300&quot;&gt;</p>
+
+<p class=MsoNormal>                        Produtos de luxo com preços
+acessíveis para homens e mulheres modernos.</p>
+
+<p class=MsoNormal>                    &lt;/p&gt;</p>
+
+<p class=MsoNormal>                &lt;/div&gt;</p>
+
+<p class=MsoNormal>                &lt;div&gt;</p>
+
+<p class=MsoNormal>                    &lt;h5 class=&quot;text-xl font-bold
+mb-4 gold-text&quot;&gt;Links Rápidos&lt;/h5&gt;</p>
+
+<p class=MsoNormal>                    &lt;ul class=&quot;space-y-2
+text-gray-300&quot;&gt;</p>
+
+<p class=MsoNormal>                        &lt;li&gt;&lt;a href=&quot;#&quot;
+class=&quot;hover:text-yellow-500&quot; onclick=&quot;scrollToProducts();
+return false;&quot;&gt;Produtos&lt;/a&gt;&lt;/li&gt;</p>
+
+<p class=MsoNormal>                        &lt;li&gt;&lt;a href=&quot;#&quot;
+class=&quot;hover:text-yellow-500&quot; onclick=&quot;openModal('about');
+return false;&quot;&gt;Sobre Nós&lt;/a&gt;&lt;/li&gt;</p>
+
+<p class=MsoNormal>                        &lt;li&gt;&lt;a href=&quot;#&quot;
+class=&quot;hover:text-yellow-500&quot; onclick=&quot;openModal('mission');
+return false;&quot;&gt;Missão, Visão e Valores&lt;/a&gt;&lt;/li&gt;</p>
+
+<p class=MsoNormal>                        &lt;li&gt;&lt;a href=&quot;#&quot;
+class=&quot;hover:text-yellow-500&quot; onclick=&quot;openModal('contact');
+return false;&quot;&gt;Contato&lt;/a&gt;&lt;/li&gt;</p>
+
+<p class=MsoNormal>                        &lt;li&gt;&lt;a href=&quot;#&quot;
+class=&quot;hover:text-yellow-500&quot; onclick=&quot;openModal('privacy');
+return false;&quot;&gt;Política de Privacidade&lt;/a&gt;&lt;/li&gt;</p>
+
+<p class=MsoNormal>                    &lt;/ul&gt;</p>
+
+<p class=MsoNormal>                &lt;/div&gt;</p>
+
+<p class=MsoNormal>                &lt;div&gt;</p>
+
+<p class=MsoNormal>                    &lt;h5 class=&quot;text-xl font-bold
+mb-4 gold-text&quot;&gt;Contato&lt;/h5&gt;</p>
+
+<p class=MsoNormal>                    &lt;ul class=&quot;space-y-2
+text-gray-300&quot;&gt;</p>
+
+<p class=MsoNormal>                        &lt;li&gt;&lt;i class=&quot;fas
+fa-envelope mr-2&quot;&gt;&lt;/i&gt; contato@beladona.com&lt;/li&gt;</p>
+
+<p class=MsoNormal>                        &lt;li&gt;&lt;i class=&quot;fas
+fa-phone mr-2&quot;&gt;&lt;/i&gt; (11) 99999-9999&lt;/li&gt;</p>
+
+<p class=MsoNormal>                        &lt;li&gt;&lt;i class=&quot;fas
+fa-map-marker-alt mr-2&quot;&gt;&lt;/i&gt; São Paulo, SP&lt;/li&gt;</p>
+
+<p class=MsoNormal>                    &lt;/ul&gt;</p>
+
+<p class=MsoNormal>                    &lt;div class=&quot;flex space-x-4
+mt-4&quot;&gt;</p>
+
+<p class=MsoNormal>                        &lt;a href=&quot;#&quot;
+class=&quot;text-gray-300 hover:text-yellow-500&quot;
+onclick=&quot;openModal('social'); return false;&quot;&gt;&lt;i class=&quot;fab
+fa-instagram text-2xl&quot;&gt;&lt;/i&gt;&lt;/a&gt;</p>
+
+<p class=MsoNormal>                        &lt;a href=&quot;#&quot;
+class=&quot;text-gray-300 hover:text-yellow-500&quot;
+onclick=&quot;openModal('social'); return false;&quot;&gt;&lt;i class=&quot;fab
+fa-facebook text-2xl&quot;&gt;&lt;/i&gt;&lt;/a&gt;</p>
+
+<p class=MsoNormal>                        &lt;a href=&quot;#&quot;
+class=&quot;text-gray-300 hover:text-yellow-500&quot;
+onclick=&quot;openModal('contact'); return false;&quot;&gt;&lt;i
+class=&quot;fab fa-whatsapp text-2xl&quot;&gt;&lt;/i&gt;&lt;/a&gt;</p>
+
+<p class=MsoNormal>                    &lt;/div&gt;</p>
+
+<p class=MsoNormal>                &lt;/div&gt;</p>
+
+<p class=MsoNormal>            &lt;/div&gt;</p>
+
+<p class=MsoNormal>            &lt;div class=&quot;border-t border-gray-700
+mt-8 pt-8 text-center text-gray-400&quot;&gt;</p>
+
+<p class=MsoNormal>                &lt;p&gt;&amp;copy; Bela Dona. Todos os
+direitos reservados.&lt;/p&gt;</p>
+
+<p class=MsoNormal>            &lt;/div&gt;</p>
+
+<p class=MsoNormal>        &lt;/div&gt;</p>
+
+<p class=MsoNormal>    &lt;/footer&gt;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>    &lt;!-- Cart Modal --&gt;</p>
+
+<p class=MsoNormal>    &lt;div id=&quot;cart-modal&quot;
+class=&quot;modal&quot;&gt;</p>
+
+<p class=MsoNormal>        &lt;div class=&quot;modal-content&quot;&gt;</p>
+
+<p class=MsoNormal>            &lt;span class=&quot;close&quot;
+onclick=&quot;closeModal('cart')&quot;&gt;&amp;times;&lt;/span&gt;</p>
+
+<p class=MsoNormal>            &lt;h2 class=&quot;text-2xl font-bold gold-text
+mb-6&quot;&gt;Seu Carrinho&lt;/h2&gt;</p>
+
+<p class=MsoNormal>            &lt;div id=&quot;cart-items&quot;&gt;</p>
+
+<p class=MsoNormal>                &lt;p class=&quot;text-center
+py-8&quot;&gt;Seu carrinho está vazio&lt;/p&gt;</p>
+
+<p class=MsoNormal>            &lt;/div&gt;</p>
+
+<p class=MsoNormal>            &lt;div class=&quot;mt-6 pt-4 border-t
+border-yellow-500&quot;&gt;</p>
+
+<p class=MsoNormal>                &lt;div class=&quot;flex justify-between
+text-xl font-bold mb-4&quot;&gt;</p>
+
+<p class=MsoNormal>                    &lt;span&gt;Total:&lt;/span&gt;</p>
+
+<p class=MsoNormal>                    &lt;span id=&quot;cart-total&quot;&gt;R$
+0,00&lt;/span&gt;</p>
+
+<p class=MsoNormal>                &lt;/div&gt;</p>
+
+<p class=MsoNormal>                &lt;button class=&quot;gold-bg gold-hover
+w-full py-3 rounded text-black font-semibold&quot;&gt;</p>
+
+<p class=MsoNormal>                    Finalizar Compra</p>
+
+<p class=MsoNormal>                &lt;/button&gt;</p>
+
+<p class=MsoNormal>            &lt;/div&gt;</p>
+
+<p class=MsoNormal>        &lt;/div&gt;</p>
+
+<p class=MsoNormal>    &lt;/div&gt;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>    &lt;!-- Favorites Modal --&gt;</p>
+
+<p class=MsoNormal>    &lt;div id=&quot;favorites-modal&quot;
+class=&quot;modal&quot;&gt;</p>
+
+<p class=MsoNormal>        &lt;div class=&quot;modal-content&quot;&gt;</p>
+
+<p class=MsoNormal>            &lt;span class=&quot;close&quot;
+onclick=&quot;closeModal('favorites')&quot;&gt;&amp;times;&lt;/span&gt;</p>
+
+<p class=MsoNormal>            &lt;h2 class=&quot;text-2xl font-bold gold-text
+mb-6&quot;&gt;Seus Favoritos&lt;/h2&gt;</p>
+
+<p class=MsoNormal>            &lt;div id=&quot;favorites-items&quot;&gt;</p>
+
+<p class=MsoNormal>                &lt;p class=&quot;text-center
+py-8&quot;&gt;Você ainda não tem favoritos&lt;/p&gt;</p>
+
+<p class=MsoNormal>            &lt;/div&gt;</p>
+
+<p class=MsoNormal>        &lt;/div&gt;</p>
+
+<p class=MsoNormal>    &lt;/div&gt;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>    &lt;!-- Contact Modal --&gt;</p>
+
+<p class=MsoNormal>    &lt;div id=&quot;contact-modal&quot;
+class=&quot;modal&quot;&gt;</p>
+
+<p class=MsoNormal>        &lt;div class=&quot;modal-content&quot;&gt;</p>
+
+<p class=MsoNormal>            &lt;span class=&quot;close&quot;
+onclick=&quot;closeModal('contact')&quot;&gt;&amp;times;&lt;/span&gt;</p>
+
+<p class=MsoNormal>            &lt;h2 class=&quot;text-2xl font-bold gold-text
+mb-6&quot;&gt;Fale Conosco&lt;/h2&gt;</p>
+
+<p class=MsoNormal>            &lt;div class=&quot;space-y-4&quot;&gt;</p>
+
+<p class=MsoNormal>                &lt;div&gt;</p>
+
+<p class=MsoNormal>                    &lt;label class=&quot;block
+mb-2&quot;&gt;Nome:&lt;/label&gt;</p>
+
+<p class=MsoNormal>                    &lt;input type=&quot;text&quot;
+id=&quot;contact-name&quot; class=&quot;w-full p-2 rounded bg-blue-900
+text-white border border-yellow-500&quot;&gt;</p>
+
+<p class=MsoNormal>                &lt;/div&gt;</p>
+
+<p class=MsoNormal>                &lt;div&gt;</p>
+
+<p class=MsoNormal>                    &lt;label class=&quot;block
+mb-2&quot;&gt;Email:&lt;/label&gt;</p>
+
+<p class=MsoNormal>                    &lt;input type=&quot;email&quot;
+id=&quot;contact-email&quot; class=&quot;w-full p-2 rounded bg-blue-900
+text-white border border-yellow-500&quot;&gt;</p>
+
+<p class=MsoNormal>                &lt;/div&gt;</p>
+
+<p class=MsoNormal>                &lt;div&gt;</p>
+
+<p class=MsoNormal>                    &lt;label class=&quot;block
+mb-2&quot;&gt;Mensagem:&lt;/label&gt;</p>
+
+<p class=MsoNormal>                    &lt;textarea
+id=&quot;contact-message&quot; class=&quot;w-full p-2 rounded bg-blue-900
+text-white border border-yellow-500 h-32&quot;&gt;&lt;/textarea&gt;</p>
+
+<p class=MsoNormal>                &lt;/div&gt;</p>
+
+<p class=MsoNormal>                &lt;div id=&quot;success-message&quot;
+class=&quot;success-message&quot;&gt;</p>
+
+<p class=MsoNormal>                    &lt;i class=&quot;fas fa-check-circle
+mr-2&quot;&gt;&lt;/i&gt;</p>
+
+<p class=MsoNormal>                    Mensagem enviada com sucesso!</p>
+
+<p class=MsoNormal>                &lt;/div&gt;</p>
+
+<p class=MsoNormal>                &lt;button id=&quot;send-message-btn&quot;
+class=&quot;gold-bg gold-hover w-full py-3 rounded text-black
+font-semibold&quot; onclick=&quot;sendMessage()&quot;&gt;</p>
+
+<p class=MsoNormal>                    Enviar Mensagem</p>
+
+<p class=MsoNormal>                &lt;/button&gt;</p>
+
+<p class=MsoNormal>            &lt;/div&gt;</p>
+
+<p class=MsoNormal>        &lt;/div&gt;</p>
+
+<p class=MsoNormal>    &lt;/div&gt;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>    &lt;!-- About Modal --&gt;</p>
+
+<p class=MsoNormal>    &lt;div id=&quot;about-modal&quot;
+class=&quot;modal&quot;&gt;</p>
+
+<p class=MsoNormal>        &lt;div class=&quot;modal-content&quot;&gt;</p>
+
+<p class=MsoNormal>            &lt;span class=&quot;close&quot;
+onclick=&quot;closeModal('about')&quot;&gt;&amp;times;&lt;/span&gt;</p>
+
+<p class=MsoNormal>            &lt;h2 class=&quot;text-2xl font-bold gold-text
+mb-6&quot;&gt;Sobre a Bela Dona&lt;/h2&gt;</p>
+
+<p class=MsoNormal>            &lt;p class=&quot;mb-4&quot;&gt;</p>
+
+<p class=MsoNormal>                A Bela Dona é uma marca que acredita que
+todos merecem produtos de beleza de qualidade com preços acessíveis.</p>
+
+<p class=MsoNormal>            &lt;/p&gt;</p>
+
+<p class=MsoNormal>            &lt;p class=&quot;mb-4&quot;&gt;</p>
+
+<p class=MsoNormal>                Nossa linha Essencial traz o melhor da
+beleza para homens e mulheres modernos, sem comprometer a qualidade.</p>
+
+<p class=MsoNormal>            &lt;/p&gt;</p>
+
+<p class=MsoNormal>            &lt;p&gt;</p>
+
+<p class=MsoNormal>                Com mais de 30 anos de experiência no
+mercado, estamos comprometidos em oferecer produtos que realcem a beleza
+natural de cada pessoa.</p>
+
+<p class=MsoNormal>            &lt;/p&gt;</p>
+
+<p class=MsoNormal>        &lt;/div&gt;</p>
+
+<p class=MsoNormal>    &lt;/div&gt;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>    &lt;!-- Mission Modal --&gt;</p>
+
+<p class=MsoNormal>    &lt;div id=&quot;mission-modal&quot;
+class=&quot;modal&quot;&gt;</p>
+
+<p class=MsoNormal>        &lt;div class=&quot;modal-content&quot;&gt;</p>
+
+<p class=MsoNormal>            &lt;span class=&quot;close&quot;
+onclick=&quot;closeModal('mission')&quot;&gt;&amp;times;&lt;/span&gt;</p>
+
+<p class=MsoNormal>            &lt;h2 class=&quot;text-2xl font-bold gold-text
+mb-6 text-center&quot;&gt;Missão, Visão e Valores&lt;/h2&gt;</p>
+
+<p class=MsoNormal>            </p>
+
+<p class=MsoNormal>            &lt;div class=&quot;mission-card&quot;&gt;</p>
+
+<p class=MsoNormal>                &lt;h3 class=&quot;text-xl font-bold
+gold-text mb-3&quot;&gt;&lt;i class=&quot;fas fa-bullseye
+mr-2&quot;&gt;&lt;/i&gt; MISSÃO&lt;/h3&gt;</p>
+
+<p class=MsoNormal>                &lt;p&gt;</p>
+
+<p class=MsoNormal>                    Oferecer produtos de higiene e beleza de
+alta qualidade para o público de diversas classes de São Paulo, com foco no
+consumidor exigente e na responsabilidade social.</p>
+
+<p class=MsoNormal>                &lt;/p&gt;</p>
+
+<p class=MsoNormal>            &lt;/div&gt;</p>
+
+<p class=MsoNormal>            </p>
+
+<p class=MsoNormal>            &lt;div class=&quot;mission-card&quot;&gt;</p>
+
+<p class=MsoNormal>                &lt;h3 class=&quot;text-xl font-bold
+gold-text mb-3&quot;&gt;&lt;i class=&quot;fas fa-eye mr-2&quot;&gt;&lt;/i&gt;
+VISÃO&lt;/h3&gt;</p>
+
+<p class=MsoNormal>                &lt;p&gt;</p>
+
+<p class=MsoNormal>                    Ser referência nacional em qualidade e ética
+no setor, com forte presença nos bairros de classe baixa média e alta.</p>
+
+<p class=MsoNormal>                &lt;/p&gt;</p>
+
+<p class=MsoNormal>            &lt;/div&gt;</p>
+
+<p class=MsoNormal>            </p>
+
+<p class=MsoNormal>            &lt;div class=&quot;mission-card&quot;&gt;</p>
+
+<p class=MsoNormal>                &lt;h3 class=&quot;text-xl font-bold
+gold-text mb-3&quot;&gt;&lt;i class=&quot;fas fa-heart mr-2&quot;&gt;&lt;/i&gt;
+VALORES&lt;/h3&gt;</p>
+
+<p class=MsoNormal>                &lt;div class=&quot;value-item&quot;&gt;</p>
+
+<p class=MsoNormal>                    &lt;div
+class=&quot;value-icon&quot;&gt;1&lt;/div&gt;</p>
+
+<p class=MsoNormal>                    &lt;span&gt;Valorização das
+pessoas&lt;/span&gt;</p>
+
+<p class=MsoNormal>                &lt;/div&gt;</p>
+
+<p class=MsoNormal>                &lt;div class=&quot;value-item&quot;&gt;</p>
+
+<p class=MsoNormal>                    &lt;div
+class=&quot;value-icon&quot;&gt;2&lt;/div&gt;</p>
+
+<p class=MsoNormal>                    &lt;span&gt;Responsabilidade
+social&lt;/span&gt;</p>
+
+<p class=MsoNormal>                &lt;/div&gt;</p>
+
+<p class=MsoNormal>                &lt;div class=&quot;value-item&quot;&gt;</p>
+
+<p class=MsoNormal>                    &lt;div
+class=&quot;value-icon&quot;&gt;3&lt;/div&gt;</p>
+
+<p class=MsoNormal>                    &lt;span&gt;Qualidade e
+transparência&lt;/span&gt;</p>
+
+<p class=MsoNormal>                &lt;/div&gt;</p>
+
+<p class=MsoNormal>                &lt;div class=&quot;value-item&quot;&gt;</p>
+
+<p class=MsoNormal>                    &lt;div
+class=&quot;value-icon&quot;&gt;4&lt;/div&gt;</p>
+
+<p class=MsoNormal>                    &lt;span&gt;Respeito ao cliente&lt;/span&gt;</p>
+
+<p class=MsoNormal>                &lt;/div&gt;</p>
+
+<p class=MsoNormal>                &lt;div class=&quot;value-item&quot;&gt;</p>
+
+<p class=MsoNormal>                    &lt;div
+class=&quot;value-icon&quot;&gt;5&lt;/div&gt;</p>
+
+<p class=MsoNormal>                    &lt;span&gt;Ética e compromisso
+social&lt;/span&gt;</p>
+
+<p class=MsoNormal>                &lt;/div&gt;</p>
+
+<p class=MsoNormal>                &lt;div class=&quot;value-item&quot;&gt;</p>
+
+<p class=MsoNormal>                    &lt;div
+class=&quot;value-icon&quot;&gt;6&lt;/div&gt;</p>
+
+<p class=MsoNormal>                    &lt;span&gt;Valorização da origem dos
+produtos&lt;/span&gt;</p>
+
+<p class=MsoNormal>                &lt;/div&gt;</p>
+
+<p class=MsoNormal>            &lt;/div&gt;</p>
+
+<p class=MsoNormal>        &lt;/div&gt;</p>
+
+<p class=MsoNormal>    &lt;/div&gt;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>    &lt;!-- Privacy Modal --&gt;</p>
+
+<p class=MsoNormal>    &lt;div id=&quot;privacy-modal&quot;
+class=&quot;modal&quot;&gt;</p>
+
+<p class=MsoNormal>        &lt;div class=&quot;modal-content&quot;&gt;</p>
+
+<p class=MsoNormal>            &lt;span class=&quot;close&quot;
+onclick=&quot;closeModal('privacy')&quot;&gt;&amp;times;&lt;/span&gt;</p>
+
+<p class=MsoNormal>            &lt;h2 class=&quot;text-2xl font-bold gold-text
+mb-6&quot;&gt;Política de Privacidade&lt;/h2&gt;</p>
+
+<p class=MsoNormal>            &lt;p class=&quot;mb-4&quot;&gt;</p>
+
+<p class=MsoNormal>                Sua privacidade é importante para nós. Esta
+Política de Privacidade explica como coletamos, usamos e protegemos suas
+informações pessoais.</p>
+
+<p class=MsoNormal>            &lt;/p&gt;</p>
+
+<p class=MsoNormal>            &lt;p class=&quot;mb-4&quot;&gt;</p>
+
+<p class=MsoNormal>                Ao usar nosso site, você concorda com a
+coleta e uso de informações de acordo com esta política.</p>
+
+<p class=MsoNormal>            &lt;/p&gt;</p>
+
+<p class=MsoNormal>            &lt;p&gt;</p>
+
+<p class=MsoNormal>                Para mais informações, entre em contato
+conosco através dos canais disponibilizados.</p>
+
+<p class=MsoNormal>            &lt;/p&gt;</p>
+
+<p class=MsoNormal>        &lt;/div&gt;</p>
+
+<p class=MsoNormal>    &lt;/div&gt;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>    &lt;!-- Social Modal --&gt;</p>
+
+<p class=MsoNormal>    &lt;div id=&quot;social-modal&quot;
+class=&quot;modal&quot;&gt;</p>
+
+<p class=MsoNormal>        &lt;div class=&quot;modal-content&quot;&gt;</p>
+
+<p class=MsoNormal>            &lt;span class=&quot;close&quot;
+onclick=&quot;closeModal('social')&quot;&gt;&amp;times;&lt;/span&gt;</p>
+
+<p class=MsoNormal>            &lt;h2 class=&quot;text-2xl font-bold gold-text
+mb-6&quot;&gt;Siga-nos nas Redes Sociais&lt;/h2&gt;</p>
+
+<p class=MsoNormal>            &lt;div class=&quot;flex justify-center
+space-x-8 py-8&quot;&gt;</p>
+
+<p class=MsoNormal>                &lt;a href=&quot;#&quot;
+class=&quot;text-4xl text-yellow-500 hover:text-yellow-400&quot;&gt;&lt;i
+class=&quot;fab fa-instagram&quot;&gt;&lt;/i&gt;&lt;/a&gt;</p>
+
+<p class=MsoNormal>                &lt;a href=&quot;#&quot;
+class=&quot;text-4xl text-yellow-500 hover:text-yellow-400&quot;&gt;&lt;i
+class=&quot;fab fa-facebook&quot;&gt;&lt;/i&gt;&lt;/a&gt;</p>
+
+<p class=MsoNormal>                &lt;a href=&quot;#&quot;
+class=&quot;text-4xl text-yellow-500 hover:text-yellow-400&quot;&gt;&lt;i
+class=&quot;fab fa-whatsapp&quot;&gt;&lt;/i&gt;&lt;/a&gt;</p>
+
+<p class=MsoNormal>            &lt;/div&gt;</p>
+
+<p class=MsoNormal>        &lt;/div&gt;</p>
+
+<p class=MsoNormal>    &lt;/div&gt;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>    &lt;script&gt;</p>
+
+<p class=MsoNormal>        // Carrinho e favoritos</p>
+
+<p class=MsoNormal>        let cart = [];</p>
+
+<p class=MsoNormal>        let favorites = [];</p>
+
+<p class=MsoNormal>        let cartCount = 0;</p>
+
+<p class=MsoNormal>        let favoritesCount = 0;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>        // Função para adicionar ao carrinho</p>
+
+<p class=MsoNormal>        function addToCart(productName, price) {</p>
+
+<p class=MsoNormal>            cart.push({ name: productName, price: price });</p>
+
+<p class=MsoNormal>            cartCount++;</p>
+
+<p class=MsoNormal>           
+document.getElementById('cart-count').textContent = cartCount;</p>
+
+<p class=MsoNormal>            updateCartDisplay();</p>
+
+<p class=MsoNormal>            openModal('cart');</p>
+
+<p class=MsoNormal>        }</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>        // Função para atualizar a exibição do carrinho</p>
+
+<p class=MsoNormal>        function updateCartDisplay() {</p>
+
+<p class=MsoNormal>            const cartItems =
+document.getElementById('cart-items');</p>
+
+<p class=MsoNormal>            const cartTotal =
+document.getElementById('cart-total');</p>
+
+<p class=MsoNormal>            </p>
+
+<p class=MsoNormal>            if (cart.length === 0) {</p>
+
+<p class=MsoNormal>                cartItems.innerHTML = '&lt;p
+class=&quot;text-center py-8&quot;&gt;Seu carrinho está vazio&lt;/p&gt;';</p>
+
+<p class=MsoNormal>                cartTotal.textContent = 'R$ 0,00';</p>
+
+<p class=MsoNormal>                return;</p>
+
+<p class=MsoNormal>            }</p>
+
+<p class=MsoNormal>            </p>
+
+<p class=MsoNormal>            let itemsHTML = '';</p>
+
+<p class=MsoNormal>            let total = 0;</p>
+
+<p class=MsoNormal>            </p>
+
+<p class=MsoNormal>            cart.forEach((item, index) =&gt; {</p>
+
+<p class=MsoNormal>                itemsHTML += `</p>
+
+<p class=MsoNormal>                    &lt;div class=&quot;cart-item flex
+justify-between items-center&quot;&gt;</p>
+
+<p class=MsoNormal>                        &lt;div&gt;</p>
+
+<p class=MsoNormal>                            &lt;h4 class=&quot;font-semibold&quot;&gt;${item.name}&lt;/h4&gt;</p>
+
+<p class=MsoNormal>                            &lt;p
+class=&quot;text-yellow-500&quot;&gt;R$ ${item.price.toFixed(2)}&lt;/p&gt;</p>
+
+<p class=MsoNormal>                        &lt;/div&gt;</p>
+
+<p class=MsoNormal>                        &lt;button
+onclick=&quot;removeFromCart(${index})&quot; class=&quot;text-red-500
+hover:text-red-300&quot;&gt;</p>
+
+<p class=MsoNormal>                            &lt;i class=&quot;fas
+fa-trash&quot;&gt;&lt;/i&gt;</p>
+
+<p class=MsoNormal>                        &lt;/button&gt;</p>
+
+<p class=MsoNormal>                    &lt;/div&gt;</p>
+
+<p class=MsoNormal>                `;</p>
+
+<p class=MsoNormal>                total += item.price;</p>
+
+<p class=MsoNormal>            });</p>
+
+<p class=MsoNormal>            </p>
+
+<p class=MsoNormal>            cartItems.innerHTML = itemsHTML;</p>
+
+<p class=MsoNormal>            cartTotal.textContent = `R$
+${total.toFixed(2)}`;</p>
+
+<p class=MsoNormal>        }</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>        // Função para remover do carrinho</p>
+
+<p class=MsoNormal>        function removeFromCart(index) {</p>
+
+<p class=MsoNormal>            cart.splice(index, 1);</p>
+
+<p class=MsoNormal>            cartCount--;</p>
+
+<p class=MsoNormal>            document.getElementById('cart-count').textContent
+= cartCount;</p>
+
+<p class=MsoNormal>            updateCartDisplay();</p>
+
+<p class=MsoNormal>        }</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>        // Função para abrir modais</p>
+
+<p class=MsoNormal>        function openModal(modalId) {</p>
+
+<p class=MsoNormal>            document.getElementById(modalId +
+'-modal').style.display = 'block';</p>
+
+<p class=MsoNormal>        }</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>        // Função para fechar modais</p>
+
+<p class=MsoNormal>        function closeModal(modalId) {</p>
+
+<p class=MsoNormal>            document.getElementById(modalId +
+'-modal').style.display = 'none';</p>
+
+<p class=MsoNormal>        }</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>        // Função para filtrar categorias</p>
+
+<p class=MsoNormal>        function filterCategory(category) {</p>
+
+<p class=MsoNormal>            alert(`Filtrando produtos da categoria:
+${category}`);</p>
+
+<p class=MsoNormal>            // Aqui você poderia implementar a lógica real
+de filtragem</p>
+
+<p class=MsoNormal>        }</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>        // Função para rolar até os produtos</p>
+
+<p class=MsoNormal>        function scrollToProducts() {</p>
+
+<p class=MsoNormal>           
+document.getElementById('products-section').scrollIntoView({ behavior: 'smooth'
+});</p>
+
+<p class=MsoNormal>        }</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>        // Função para enviar mensagem com animação</p>
+
+<p class=MsoNormal>        function sendMessage() {</p>
+
+<p class=MsoNormal>            const name =
+document.getElementById('contact-name').value;</p>
+
+<p class=MsoNormal>            const email =
+document.getElementById('contact-email').value;</p>
+
+<p class=MsoNormal>            const message =
+document.getElementById('contact-message').value;</p>
+
+<p class=MsoNormal>            </p>
+
+<p class=MsoNormal>            // Verificar se todos os campos estão
+preenchidos</p>
+
+<p class=MsoNormal>            if (!name || !email || !message) {</p>
+
+<p class=MsoNormal>                alert('Por favor, preencha todos os
+campos.');</p>
+
+<p class=MsoNormal>                return;</p>
+
+<p class=MsoNormal>            }</p>
+
+<p class=MsoNormal>            </p>
+
+<p class=MsoNormal>            const button =
+document.getElementById('send-message-btn');</p>
+
+<p class=MsoNormal>            const successMessage =
+document.getElementById('success-message');</p>
+
+<p class=MsoNormal>            </p>
+
+<p class=MsoNormal>            // Adicionar animação de envio</p>
+
+<p class=MsoNormal>            button.classList.add('sending-animation');</p>
+
+<p class=MsoNormal>            button.disabled = true;</p>
+
+<p class=MsoNormal>            button.textContent = 'Enviando...';</p>
+
+<p class=MsoNormal>            </p>
+
+<p class=MsoNormal>            // Simular envio (em um site real, aqui você
+faria a chamada para o servidor)</p>
+
+<p class=MsoNormal>            setTimeout(() =&gt; {</p>
+
+<p class=MsoNormal>                button.classList.remove('sending-animation');</p>
+
+<p class=MsoNormal>                button.disabled = false;</p>
+
+<p class=MsoNormal>                button.textContent = 'Enviar Mensagem';</p>
+
+<p class=MsoNormal>                </p>
+
+<p class=MsoNormal>                // Mostrar mensagem de sucesso</p>
+
+<p class=MsoNormal>                successMessage.style.display = 'block';</p>
+
+<p class=MsoNormal>                </p>
+
+<p class=MsoNormal>                // Limpar campos</p>
+
+<p class=MsoNormal>               
+document.getElementById('contact-name').value = '';</p>
+
+<p class=MsoNormal>               
+document.getElementById('contact-email').value = '';</p>
+
+<p class=MsoNormal>               
+document.getElementById('contact-message').value = '';</p>
+
+<p class=MsoNormal>                </p>
+
+<p class=MsoNormal>                // Esconder mensagem de sucesso após 3
+segundos</p>
+
+<p class=MsoNormal>                setTimeout(() =&gt; {</p>
+
+<p class=MsoNormal>                    successMessage.style.display = 'none';</p>
+
+<p class=MsoNormal>                }, 3000);</p>
+
+<p class=MsoNormal>            }, 2000);</p>
+
+<p class=MsoNormal>        }</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>        // Fechar modais ao clicar fora</p>
+
+<p class=MsoNormal>        window.onclick = function(event) {</p>
+
+<p class=MsoNormal>            const modals =
+document.querySelectorAll('.modal');</p>
+
+<p class=MsoNormal>            modals.forEach(modal =&gt; {</p>
+
+<p class=MsoNormal>                if (event.target == modal) {</p>
+
+<p class=MsoNormal>                    modal.style.display = 'none';</p>
+
+<p class=MsoNormal>                }</p>
+
+<p class=MsoNormal>            });</p>
+
+<p class=MsoNormal>        }</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
+<p class=MsoNormal>        // Fechar modais com ESC</p>
+
+<p class=MsoNormal>        document.addEventListener('keydown', function(event)
+{</p>
+
+<p class=MsoNormal>            if (event.key === 'Escape') {</p>
+
+<p class=MsoNormal>                const modals = document.querySelectorAll('.modal');</p>
+
+<p class=MsoNormal>                modals.forEach(modal =&gt; {</p>
+
+<p class=MsoNormal>                    modal.style.display = 'none';</p>
+
+<p class=MsoNormal>                });</p>
+
+<p class=MsoNormal>            }</p>
+
+<p class=MsoNormal>        });</p>
+
+<p class=MsoNormal>    &lt;/script&gt;</p>
+
+<p class=MsoNormal>&lt;/body&gt;</p>
+
+<p class=MsoNormal>&lt;/html&gt;</p>
+
+</div>
+
+</body>
+
+</html>
